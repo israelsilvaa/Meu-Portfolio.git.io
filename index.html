@@ -10,6 +10,12 @@
 
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@200&display=swap"
+            rel="stylesheet"
+        />
 
         <!--==================== JS====================-->
         <link rel="stylesheet" href="/assets/js/main.js" />
@@ -20,8 +26,13 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav>
+                <h4 class="nome-logo">
+                    <a href="#israel"
+                        >&lt; ISRAEL <span class="silva">SILVA</span> /&gt;</a
+                    >
+                </h4>
                 <ul>
-                    <li><a href="#israel">Meu Portifolio</a></li>
+                    <li><a href="#israel">Home</a></li>
                     <li><a href="#sobre">sobre</a></li>
                     <li><a href="#habilidades">habilidades</a></li>
                     <li><a href="#qualificacoes">qualificações</a></li>
@@ -34,91 +45,100 @@
         <!--==================== MAIN ====================-->
         <main class="main">
             <section id="israel" class="israel">
-                <div class="container">
-                    <div>
-                        <img
-                            class="perfil_imagem"
-                            src="/assets/img/israel.jpeg"
-                            alt=""
-                        />
-                    </div>
-                    <div>
-                        <p class="sintese">
-                            Olá, sou um desenvolvedor back-end jr, atualmente
-                            focado no framework laravel, ainda assim possuo
-                            tabem conhecimento basico de front-end para
-                            construir apliações com desing interressante.
-                            <a href="#">Curriculo.pdf</a>
-                        </p>
-                    </div>
+                <div>
+                    <img
+                        class="perfil_imagem"
+                        src="/assets/img/israel.jpeg"
+                        alt=""
+                    />
+                </div>
+                <div>
+                    <p class="texto-section">
+                        Olá, sou um
+                        <span class="devback">Desenvolvedor back-end</span>,
+                        atualmente focado no framework laravel, ainda assim
+                        possuo tabem conhecimento basico de front-end para
+                        construir apliações com desing interressante.
+                        <br />
+                        <a id="curriculo" href="/assets/pdf/Israel_Silva.pdf" download>
+                            Curriculo
+                            <i class="fa-regular fa-file-pdf"></i>
+                        </a>
+                    </p>
                 </div>
             </section>
 
             <section id="sobre">
-                <h1>sobre</h1>
                 <img class="sec_imagen" src="/assets/img/sobre.png" alt="" />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique quo eius maiores id beatae? Fugiat quasi deserunt,
-                    ex ab ea perspiciatis eum, amet eos quibusdam dolorem
-                    voluptate expedita animi accusamus?
-                </p>
+                <div>
+                    <h1>sobre</h1>
+                    <p class="texto-section">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Similique quo eius maiores id beatae? Fugiat quasi
+                        deserunt, ex ab ea perspiciatis eum, amet eos quibusdam
+                        dolorem voluptate expedita animi accusamus?
+                    </p>
+                </div>
             </section>
             <section id="habilidades">
-                <h1>habilidades</h1>
                 <img
                     class="sec_imagen"
                     src="/assets/img/habulidades.png"
                     alt=""
                 />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique quo eius maiores id beatae? Fugiat quasi deserunt,
-                    ex ab ea perspiciatis eum, amet eos quibusdam dolorem
-                    voluptate expedita animi accusamus?
-                </p>
+                <div>
+                    <h1>habilidades</h1>
+                    <p class="texto-section">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Similique quo eius maiores id beatae? Fugiat quasi
+                        deserunt, ex ab ea perspiciatis eum, amet eos quibusdam
+                        dolorem voluptate expedita animi accusamus?
+                    </p>
+                </div>
             </section>
             <section id="qualificacoes">
-                <h1>qualificacoes</h1>
                 <img
                     class="sec_imagen"
                     src="/assets/img/qualificacoes.jpg"
                     alt=""
                 />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique quo eius maiores id beatae? Fugiat quasi deserunt,
-                    ex ab ea perspiciatis eum, amet eos quibusdam dolorem
-                    voluptate expedita animi accusamus?
-                </p>
+                <div>
+                    <h1>qualificacoes</h1>
+                    <p class="texto-section">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Similique quo eius maiores id beatae? Fugiat quasi
+                        deserunt, ex ab ea perspiciatis eum, amet eos quibusdam
+                        dolorem voluptate expedita animi accusamus?
+                    </p>
+                </div>
             </section>
             <section id="portifolio">
                 <h1>portifolio</h1>
-                <div class="container">
+                <div id="div-portifolio">
                     <div class="card">
                         <h4 class="titulo-card">Criterion tecnologia</h4>
-                        <p class="texto-card">
+                        <p class="texto-card texto-section">
                             site para ver ssds em estoque e sua especificação,
                             alem de consulta de garantia para clientes
                         </p>
                     </div>
                     <div class="card">
                         <h4 class="titulo-card">Criterion tecnologia</h4>
-                        <p class="texto-card">
+                        <p class="texto-card texto-section">
+                            site para ver ssds em estoque e sua especificação,
+                            alem de consulta de garantia para clientes.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4 class="titulo-card">Criterion tecnologia</h4>
+                        <p class="texto-card texto-section">
                             site para ver ssds em estoque e sua especificação,
                             alem de consulta de garantia para clientes
                         </p>
                     </div>
                     <div class="card">
                         <h4 class="titulo-card">Criterion tecnologia</h4>
-                        <p class="texto-card">
-                            site para ver ssds em estoque e sua especificação,
-                            alem de consulta de garantia para clientes
-                        </p>
-                    </div>
-                    <div class="card">
-                        <h4 class="titulo-card">Criterion tecnologia</h4>
-                        <p class="texto-card">
+                        <p class="texto-card texto-section">
                             site para ver ssds em estoque e sua especificação,
                             alem de consulta de garantia para clientes
                         </p>
@@ -126,14 +146,16 @@
                 </div>
             </section>
             <section id="contatos">
-                <h1>contatos</h1>
                 <img class="sec_imagem" src="/assets/img/contatos.png" alt="" />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique quo eius maiores id beatae? Fugiat quasi deserunt,
-                    ex ab ea perspiciatis eum, amet eos quibusdam dolorem
-                    voluptate expedita animi accusamus?
-                </p>
+                <div>
+                    <h1>contatos</h1>
+                    <p class="texto-section">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Similique quo eius maiores id beatae? Fugiat quasi
+                        deserunt, ex ab ea perspiciatis eum, amet eos quibusdam
+                        dolorem voluptate expedita animi accusamus?
+                    </p>
+                </div>
             </section>
         </main>
 
@@ -146,5 +168,9 @@
 
         <!--==================== MAIN JS ====================-->
         <script src=""></script>
+        <script
+            src="https://kit.fontawesome.com/bf4bab225b.js"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
