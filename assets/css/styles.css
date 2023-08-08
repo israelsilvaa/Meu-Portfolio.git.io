@@ -32,9 +32,7 @@ main {
 #portifolio {
     background-color: var(--sumary-Background);
 }
-#sobre,
-#qualificacoes,
-#contatos {
+#sobre, #contatos {
     background-color: var(--sumary-Background-2);
 }
 
@@ -47,7 +45,7 @@ nav {
     padding-right: 30px;   
     
     gap: 2rem;
-    height: 2rem;
+    height: 3rem;
     
     background-color: var(--Navigation-Background-Dark);
     width: 100%;
@@ -60,15 +58,27 @@ li{
 nav ul a {
     text-decoration: none;
     color: var(--Navigation-Title-White);
-    padding: 7px;
+    padding: 10px;
 }
 nav ul a:hover {
     background-color: var(--Navigation-Background-White);
-    color: var(--sumary-Background);
+    color: var(--roxo);
+    transition: 0.5s ease-in-out;
 }
+
 .nome-logo a{
     color: #fff;
 }
+.nome-logo a:hover{
+    color: var(--roxo);
+    transition: 0.5s;
+}
+
+.nome-logo a:hover span{
+    color: var(--Navigation-Background-White);
+    transition: 0.5s ease-in-out;
+}
+
 span{
     color: var(--roxo);
 }
@@ -90,8 +100,8 @@ section p {
     color: var(--text-primary);
 }
 .sec_imagen {
-    width: 200px;
-    height: 150px;
+    width: 350px;
+    height: 300px;
     border: 2px solid var(--Navigation-Background-White);
     box-shadow: 5px 5px 5px 3px black;
     margin-right: 20px;
@@ -106,8 +116,8 @@ section p {
 
 /* israelsilva */
 .perfil_imagem {
-    width: 300px;
-    height: 350px;
+    width: 500px;
+    height: 650px;
     border-radius: 15px;
     border: 2px solid var(--roxo);
     box-shadow: 5px 5px 5px 3px black;
@@ -118,36 +128,110 @@ section p {
 }
 #curriculo {
     text-decoration: none;
-    font-size: medium;
-    color: var(--Navigation-Title-Dark);
-    background-color: var(--roxo);
+    color: var(--Navigation-Title-White);
+    background-color: var(--sumary-Background);
     padding: 10px;
     border-radius: 10px;
-    margin: 5% 25%;
+    border: 2px solid var(--roxo);
     box-shadow: 5px 5px 5px 2px black;
 }
+
 #curriculo:hover{
-    background-color: var(--sumary-Background-2);
+    background-color: var(--roxo);
     color: var(--Navigation-Title-White);
+    transition: 0.5s ease-in-out;
 }
 
+.container{
+    display: flex;
+    flex-direction:column ;
+}
+.teste{
+    margin-top: 5%;
+    margin-left: 35%;
+}
 /* sobre */
-/* habilidades */
-/* qualificações */
-/* portifolio */
-/* contatos */
 
-/* ----------------------- fim seções ----------------------- */
+/* habilidades */
+
+.habilidade_imagem{
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid black;
+}
+
+#habilidades{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* portifolio */
+
+
+.container-portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .card {
     max-width: 150px;
-    height: 200px;
+    margin: 10px;
+    padding: 5px;
     background-color: var(--text-primary);
 }
 
 .titulo-card {
     color: var(--Navigation-Title-White);
 }
+
 .texto-card {
     color: var(--text-secondary);
+}
+
+/* contatos */
+.container-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icone-contato {
+    margin: 10px 10px 10px 10px;
+}
+.link-contato {
+    margin: 10px 10px 10px 10px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--Navigation-Background-White);
+}
+
+footer h1{
+    margin-top: 10px;
+}
+#assinatura{
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+/* ----------------------- fim seções ----------------------- */
+
+footer{
+    background-color: var(--sumary-Background-2);
 }

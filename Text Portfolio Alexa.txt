@@ -1,3 +1,9 @@
+
+exemplos:
+https://jo-oliver.vercel.app/#home
+https://chic-cupcake-38732f.netlify.app/#home
+
+
 * HOME
 home__social
 https://www.linkedin.com/
