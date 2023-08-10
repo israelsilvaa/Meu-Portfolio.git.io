@@ -4,53 +4,16 @@ https://jo-oliver.vercel.app/#home
 https://chic-cupcake-38732f.netlify.app/#home
 
 
-* HOME
-home__social
-https://www.linkedin.com/
-https://dribbble.com/
-https://github.com/
+ Olá, sou um Desenvolvedor back-end jr, atualmente focado
+no framework LARAVEL, Laravel Blade, ainda assim possuo
+conhecimento básico de front-end utilizando algumas das
+principais tecnologias como HTML5, CSS3, BOOTSTRAP para
+construir apliações com desing interressante e dentro
+das boas praticas de progaramação.
 
-home__description
-High level experience in web design and development knowledge, producing quality work.
-
-
-* ABOUT
-about__description
-Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
-
-about__info-name
-Years <br> experience
-Completed <br> project
-Companies <br> worked
-
-
-* SERVICES
-services__modal-service
-I develop the user interface.
-Web page development.
-I create ux element interactions.
-I position your company brand.
-
-
-* PORTFOLIO
-portfolio__description
-Website adaptable to all devices, with ui components and animated interactions.
-
-
-* PROJECT
-project__description
-Contact me now and get a 30% discount on your new project.
-
-
-* TESTIMONIAL
-testimonial__description
-I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
-
-
-* FOOTER
-footer__social
-https://www.facebook.com/
-https://www.instagram.com/
-https://twitter.com/
-
-
+Tenho 24 anos, nascido em marituba-PA onde resido
+atualmente, Sou discente do curso de Sistemas de
+Informação na universidade federal do Pará, cursando o
+7º semestre de graduação. Minha aréa de interesse é o
+desenvolvimento de Websites, e minha dedicação de
+estudos é para com as tecnologias desse ramo.
