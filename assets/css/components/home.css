@@ -1,0 +1,60 @@
+#home {
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.bem-vindo{
+    max-width: 450px;
+    text-align: justify;
+    color: var(--white);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-perfil img{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid var(--purple);
+    /* box-shadow: 0px 3px 10px rgb(157, 0, 500); */
+}
+
+.btn-curriculo{
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-curriculo button{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.btn-curriculo button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn-curriculo button:hover {
+    box-shadow: 0px 0px 10px white;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
