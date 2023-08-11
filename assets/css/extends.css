@@ -7,3 +7,5 @@
 @import './components/habilidades.css';
 @import './components/projetos.css';
 @import './components/contatos.css';
+
+@import './responsividade.css';

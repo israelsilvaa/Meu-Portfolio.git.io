@@ -35,12 +35,3 @@ footer {
     color: var(--purple);
 }
 
-@media (with: 500px) {
-    .icones-contato {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-}
