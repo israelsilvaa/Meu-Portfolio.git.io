@@ -1,0 +1,278 @@
+/* 320px - 480px = mobile */
+/* Em mobile first não precisa de MQ */
+
+/* 480px - 768px = tablet */
+@media (min-width: 480px) {
+     /* navbar */
+     .logo{
+        font-size: 0.8rem;
+     }
+     .nav-link {
+        font-size: 0.8rem;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+
+    /* home */
+    .bem-vindo {
+        max-width: 400px;
+    }
+
+    .img-perfil img {
+        width: 400px;
+        height: 420px;
+    }
+
+    /* sobre-mim */
+    .texto-sobre-mim {
+        width: 400px;
+    }
+    .img-sobre-mim img {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* habilidades */
+    .img-habilidades {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* 768px - 1024px = telas menores, laptops */
+@media (min-width: 768px) {
+     /* navbar */
+     .logo{
+        font-size: 0.8rem;
+     }
+     .nav-link {
+        font-size: 0.8rem;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+    
+    /* home */
+    .container-home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bem-vindo {
+        width: 400px;
+        color: var(--white);
+        padding: 20px;
+    }
+
+    .img-perfil img {
+        width: 400px;
+        height: 420px;
+        margin-left: 10px;
+    }
+
+    /* sobre-mim */
+    .container-sobre-mim-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .texto-sobre-mim {
+        width: 400px;
+        color: var(--white);
+    }
+    .img-sobre-mim img {
+        width: 400px;
+        height: 400px;
+    }
+
+    /* habilidades */
+    .img-habilidades {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* contatos */
+    .icones-contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 80px
+    }
+    
+    .icones-contato a {
+        margin: 30px;
+        text-decoration: none;
+        color: var(--white);
+    }
+   
+    .icones-contato a i{
+        font-size: 20px;
+    }
+
+    .dev-por-israel{
+        font-size: 18px;
+    }
+}
+
+/* 1024px - 1200px = desktop */
+@media (min-width: 1024px) {
+     /* navbar */
+     .logo{
+        font-size: 1.2rem;
+     }
+     .nav-link {
+        font-size: 1.2rem;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    /* home */
+    .container-home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bem-vindo {
+        width: 600px;
+        color: var(--white);
+        padding: 20px;
+    }
+
+    .img-perfil img {
+        width: 470px;
+        height: 520px;
+        margin-left: 10px;
+    }
+
+    /* sobre-mim */
+    .container-sobre-mim-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .texto-sobre-mim {
+        width: 500px;
+        color: var(--white);
+        padding: 20px;
+    }
+    .img-sobre-mim img {
+        width: 470px;
+        height: 470px;
+    }
+
+    /* habilidades */
+    .img-habilidades {
+        width: 120px;
+        height: 120px;
+    }
+
+     /* contatos */
+    .icones-contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 80px
+    }
+    
+    .icones-contato a {
+        margin: 30px;
+        text-decoration: none;
+        color: var(--white);
+    }
+   
+    .icones-contato a i{
+        font-size: 26px;
+    }
+    
+    .dev-por-israel{
+        font-size: 20px;
+    }
+}
+
+/* 1200 e + = telas maiores, tvs */
+@media (min-width: 1200px) {
+     /* navbar */
+     .logo{
+        font-size: 1.4rem;
+     }
+     .nav-link {
+        font-size: 1.5rem;
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+
+    /* home */
+    .container-home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bem-vindo {
+        width: 800px;
+        color: var(--white);
+        padding: 20px;
+        font-size: 26px;
+    }
+
+    .img-perfil img {
+        width: 670px;
+        height: 720px;
+        margin-left: 10px;
+    }
+
+    /* sobre-mim */
+    .container-sobre-mim-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .texto-sobre-mim {
+        width: 600px;
+        color: var(--white);
+        padding: 20px;
+        font-size: 26px;
+    }
+    .img-sobre-mim img {
+        width: 550px;
+        height: 550px;
+    }
+
+    /* habilidades */
+    .img-habilidades {
+        width: 200px;
+        height: 200px;
+    }
+
+     /* contatos */
+    
+    .icones-contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: 80px
+    }
+    
+    .icones-contato a {
+        margin: 30px;
+        text-decoration: none;
+        color: var(--white);
+    }
+   
+    .icones-contato a i{
+        font-size: 28px;
+    }
+    
+}

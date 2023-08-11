@@ -13,6 +13,7 @@ nav{
 .logo{
     display: flex;
     align-items: center;
+    font-size: 0.8rem;
 }
 
 .logo h1{
@@ -37,7 +38,7 @@ nav{
 
 .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 0.8rem;
     color: var(--white);
     font-weight: 400;
 }
