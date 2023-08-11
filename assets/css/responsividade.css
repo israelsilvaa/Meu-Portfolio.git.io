@@ -276,3 +276,11 @@
     }
     
 }
+
+h1{
+    color: var(--purple);
+}
+
+h3{
+    color: var(--white);
+}
