@@ -68,13 +68,23 @@
 }
 
 .laravel, .php, .mysql, .livewire,
-.html, .css3, .bootstrap{
+.html, .css3, .bootstrap, .vuejs, 
+.jwt, .api{
     background-color: rgba(0, 0, 0, 0.3);
     padding: 5px;
     margin: 2px;
 }
 .laravel{
     color: #e30f0f;
+}
+.jwt {
+    color: #007acc;
+}
+.api {
+    color: #ff8c00;
+}
+.vuejs{
+    color: #42b883;
 }
 .php{
     color: #65558b;
