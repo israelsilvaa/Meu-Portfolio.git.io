@@ -1,55 +1,89 @@
 #home {
-    background-color: rgb(59, 59, 59);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background: linear-gradient(135deg, var(--bg-dark) 0%, var(--secondary-color) 100%);
+    padding-top: 100px;
 }
 
 .container-home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 2rem;
+    max-width: 800px;
+    text-align: center;
 }
 
-.bem-vindo {
-    max-width: 280px;
-    text-align: justify;
-    color: var(--white);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+.img-perfil {
+    position: relative;
 }
 
 .img-perfil img {
-    width: 220px;
-    height: 240px;
-    border-radius: 10px;
-    border: 2px solid var(--purple);
-    /* box-shadow: 0px 3px 10px rgb(157, 0, 500); */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid var(--theme-color);
+    box-shadow: 0 0 30px var(--theme-accent);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-perfil img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px var(--theme-accent);
+}
+
+.bem-vindo {
+    max-width: 600px;
+    text-align: center;
+    color: var(--white);
+    padding: 1rem;
+}
+
+.bem-vindo p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
 }
 
 .btn-curriculo {
-    text-align: center;
-    padding: 10px;
+    margin-top: 1rem;
 }
 
 .btn-curriculo button {
-    margin: 20px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    background-color: blueviolet;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    background: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color-light) 100%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px var(--theme-accent);
 }
 
 .btn-curriculo button a {
-    text-decoration: none;
-    color: aliceblue;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .btn-curriculo button:hover {
-    box-shadow: 0px 0px 10px white;
-    transition: 0.5s;
-    transform: scale(1.1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px var(--theme-accent);
+}
+
+@media (max-width: 768px) {
+    .img-perfil img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bem-vindo p {
+        font-size: 1rem;
+    }
+
+    .btn-curriculo button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
 }

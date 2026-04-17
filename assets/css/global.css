@@ -1,14 +1,82 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Victor+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Victor+Mono:wght@400;500&display=swap");
+@import './temas.css';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    padding-top: 70px; /* Compensa o header fixo */
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 section {
-    
-    height: 100vh;
+    min-height: 100vh;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Garantir que divs com id de seções também se comportem como seções */
+#projetos, #contatos {
+    min-height: 100vh;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#contatos {
+    min-height: auto;
+    padding-bottom: 40px;
+}
+
+/* Container padrão para centralização */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    section, #projetos, #contatos {
+        padding: 60px 20px;
+    }
 }

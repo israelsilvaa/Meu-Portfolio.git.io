@@ -1,0 +1,102 @@
+/* ========================================
+   SISTEMA DE TEMAS CENTRALIZADO
+   ========================================
+   Para trocar de tema, basta alterar a variável
+   --tema-ativo abaixo para: purple, red ou blue
+   ======================================== */
+
+:root {
+    /* SELECIONE O TEMA AQUI: purple, red ou blue */
+    --tema-ativo: red;
+
+    /* Tema Roxo (Atual) */
+    --tema-purple-primary: #9d00ff;
+    --tema-purple-secondary: #b84dff;
+    --tema-purple-accent: rgba(157, 0, 255, 0.3);
+    --tema-purple-light: rgba(157, 0, 255, 0.1);
+
+    /* Tema Vermelho */
+    --tema-red-primary: #e63946;
+    --tema-red-secondary: #ff6b6b;
+    --tema-red-accent: rgba(230, 57, 70, 0.3);
+    --tema-red-light: rgba(230, 57, 70, 0.1);
+
+    /* Tema Azul */
+    --tema-blue-primary: #0066cc;
+    --tema-blue-secondary: #3399ff;
+    --tema-blue-accent: rgba(0, 102, 204, 0.3);
+    --tema-blue-light: rgba(0, 102, 204, 0.1);
+
+    /* Cores base (fixas) */
+    --white: #ffffff;
+    --gray-light: #d9d9d9;
+    --gray-medium: #9ca3af;
+    --black: #000000;
+    --primary-color: #02073e;
+    --secondary-color: #0f2137;
+    --dark-secondary-color: #3c415c;
+    --tertiary-color: #a6b1e1;
+    --light-tertiary-color: #f3f6fb;
+    --text-color: #343d48;
+    --bg-dark: #1a1a2e;
+    --bg-card: #2d2d44;
+    --bg-hover: #3d3d5c;
+
+    /* Cores dinâmicas baseadas no tema ativo */
+    --theme-primary: var(
+        --tema-#{var(--tema-ativo)}-primary,
+        var(--tema-purple-primary)
+    );
+    --theme-secondary: var(
+        --tema-#{var(--tema-ativo)}-secondary,
+        var(--tema-purple-secondary)
+    );
+    --theme-accent: var(
+        --tema-#{var(--tema-ativo)}-accent,
+        var(--tema-purple-accent)
+    );
+    --theme-light: var(
+        --tema-#{var(--tema-ativo)}-light,
+        var(--tema-purple-light)
+    );
+}
+
+/* Aplicar cores do tema selecionado */
+:root {
+    --purple: var(--tema-purple-primary);
+    --purple-light: var(--tema-purple-secondary);
+}
+
+/* Tema Vermelho */
+[data-theme="red"] {
+    --purple: var(--tema-red-primary);
+    --purple-light: var(--tema-red-secondary);
+}
+
+/* Tema Azul */
+[data-theme="blue"] {
+    --purple: var(--tema-blue-primary);
+    --purple-light: var(--tema-blue-secondary);
+}
+
+/* Variáveis de cores específicas para elementos */
+:root {
+    --theme-color: var(--purple);
+    --theme-color-light: var(--purple-light);
+    --theme-accent: rgba(157, 0, 255, 0.3);
+    --theme-light-bg: rgba(157, 0, 255, 0.1);
+}
+
+[data-theme="red"] {
+    --theme-color: var(--tema-red-primary);
+    --theme-color-light: var(--tema-red-secondary);
+    --theme-accent: var(--tema-red-accent);
+    --theme-light-bg: var(--tema-red-light);
+}
+
+[data-theme="blue"] {
+    --theme-color: var(--tema-blue-primary);
+    --theme-color-light: var(--tema-blue-secondary);
+    --theme-accent: var(--tema-blue-accent);
+    --theme-light-bg: var(--tema-blue-light);
+}

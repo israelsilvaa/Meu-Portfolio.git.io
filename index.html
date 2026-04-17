@@ -21,7 +21,9 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <h1>&lt;Israel <span>Silva</span>/&gt;</h1>
+                <a href="#home">
+                    <h1>&lt;Israel <span>Silva</span>/&gt;</h1>
+                </a>
             </div>
 
             <div class="nav-list">
@@ -42,6 +44,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contatos"><i class="fa-solid fa-phone" style="color: #707070"></i>
                             Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="theme-selector">
+                            <button class="theme-btn" data-theme="purple" title="Tema Roxo"></button>
+                            <button class="theme-btn" data-theme="red" title="Tema Vermelho"></button>
+                            <button class="theme-btn" data-theme="blue" title="Tema Azul"></button>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -71,16 +80,23 @@
                     <a class="nav-link" href="#contatos"><i class="fa-solid fa-phone" style="color: #707070"></i>
                         Contatos</a>
                 </li>
+                <li class="nav-item">
+                    <div class="theme-selector">
+                        <button class="theme-btn" data-theme="purple" title="Tema Roxo"></button>
+                        <button class="theme-btn" data-theme="red" title="Tema Vermelho"></button>
+                        <button class="theme-btn" data-theme="blue" title="Tema Azul"></button>
+                    </div>
+                </li>
             </ul>
         </div>
     </header>
 
     <main>
         <section id="home">
-            <h1>Home</h1>
+            <h1>Bem-vindo</h1>
             <div class="container-home">
                 <div class="img-perfil">
-                    <img src="assets/img/israel.jpeg" alt="" />
+                    <img src="assets/img/israel.webp" alt="" />
                 </div>
 
                 <div class="bem-vindo">
@@ -92,8 +108,9 @@
                     </p>
                     <div class="btn-curriculo">
                         <button>
-                            <a href="assets/pdf/Israel Pinheiro da Silva_atual.pdf" download="">curriculo
-                                <i class="fa-regular fa-file-pdf" style="color: #000000"></i></a>
+                            <a href="assets/pdf/Israel Pinheiro da Silva_atual.pdf" download="">
+                                <i class="fa-regular fa-file-pdf"></i> Baixar Currículo
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -102,9 +119,7 @@
 
         <section id="sobre-mim">
             <div class="container-sobre-mim">
-                <div>
-                    <h1>Sobre Mim</h1>
-                </div>
+                <h1>Sobre Mim</h1>
 
                 <div class="container-sobre-mim-2">
                     <div class="texto-sobre-mim">
@@ -127,9 +142,7 @@
 
         <section id="habilidades">
             <div class="container-habilidades">
-                <div>
-                    <h1 class="teste">Habilidades</h1>
-                </div>
+                <h1>Habilidades</h1>
 
                 <div class="container-habilidades-2">
                     <img class="img-habilidades" src="assets/img/laravel.png" alt="" />
@@ -148,7 +161,7 @@
             </div>
         </section>
 
-        <div id="projetos">
+        <section id="projetos">
             <h1>Projetos</h1>
             <div class="container-projetos">
                 <div class="card">
@@ -176,14 +189,14 @@
                     <div class="card-footer">
                         <a href="https://criteriontecnologia.store/public/" target="_blank">
                             <button class="btn-deploy">
-                                Ver site
+                                Ver Site
                             </button>
                         </a>
                         <button>
                             <a href="https://github.com/israelsilvaa/TaskFlow" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
-                        <!-- <button> <a href="#" target="_blank"> Ver Site</a></button> -->
                     </div>
                 </div>
 
@@ -210,9 +223,9 @@
                     <div class="card-footer">
                         <button>
                             <a href="https://github.com/israelsilvaa/CriterionTecnologia" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
-                        <!-- <button> <a href="#" target="_blank"> Ver Site</a></button> -->
                     </div>
                 </div>
 
@@ -224,8 +237,8 @@
                     <div class="card-body">
                         <h3 class="card-titulo">Ana Bela</h3>
                         <p class="card-texto">
-                            Projeto feito durante aprendizado de html, css
-                            pelo curso da udemy
+                            Projeto feito durante aprendizado de HTML e CSS
+                            pelo curso da Udemy
                         </p>
                         <div class="card-tecnologias">
                             <span class="html">Html5 </span>
@@ -234,12 +247,14 @@
                     </div>
                     <div class="card-footer">
                         <button class="btn-deploy">
-                            <a href="https://master--gleaming-travesseiro-15b6f1.netlify.app/" target="_blank">Ver
-                                site</a>
+                            <a href="https://master--gleaming-travesseiro-15b6f1.netlify.app/" target="_blank">
+                                Ver Site
+                            </a>
                         </button>
                         <button>
                             <a href="https://github.com/israelsilvaa/Projeto-AnaBela" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -265,10 +280,10 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <!-- <button>Ver site</button> -->
                         <button>
                             <a href="https://github.com/israelsilvaa/Desafio_COTIC_2022" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -282,7 +297,7 @@
                         <h3 class="card-titulo">HDC events</h3>
                         <p class="card-texto">
                             Projeto desenvolvido durante o curso de Laravel
-                            feito no youtube pelo canal Hora de Codar.
+                            feito no YouTube pelo canal Hora de Codar.
                         </p>
                         <div class="card-tecnologias">
                             <span class="laravel">Laravel </span>
@@ -292,10 +307,10 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <!-- <button>Ver site</button> -->
                         <button>
                             <a href="https://github.com/israelsilvaa/HDCevents" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -309,7 +324,7 @@
                         <h3 class="card-titulo">TecBlog</h3>
                         <p class="card-texto">
                             Projeto feito durante curso de aprendizado de
-                            HTML, CCS3 na Udemy
+                            HTML e CSS3 na Udemy
                         </p>
                         <div class="card-tecnologias">
                             <span class="html">Html5 </span>
@@ -318,11 +333,14 @@
                     </div>
                     <div class="card-footer">
                         <button class="btn-deploy">
-                            <a href="https://main--elaborate-muffin-8ea074.netlify.app/" target="_blank">Ver site</a>
+                            <a href="https://main--elaborate-muffin-8ea074.netlify.app/" target="_blank">
+                                Ver Site
+                            </a>
                         </button>
                         <button>
                             <a href="https://github.com/israelsilvaa/Projeto_TecBlog" target="_blank">
-                                GitHub</a>
+                                GitHub
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -346,20 +364,19 @@
                     </div>
 
                     <div class="card-footer">
-                        <button>Ver site</button>
-                        <button> <a href="#"> GitHub</a></button>
+                        <button disabled style="opacity: 0.5; cursor: not-allowed;">
+                            Em breve
+                        </button>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer id="contatos">
         <div class="container-contatos">
-            <div>
-                <h1>Contatos</h1>
-            </div>
+            <h1>Contatos</h1>
             <div class="icones-contato">
                 <a href="https://github.com/israelsilvaa" target="_blank"><i class="fa-brands fa-github"
                         style="color: #000000"></i>
