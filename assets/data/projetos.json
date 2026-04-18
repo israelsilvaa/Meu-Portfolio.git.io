@@ -1,0 +1,59 @@
+[
+  {
+    "nome": "TaskFlow",
+    "imagem": "assets/img/taskflow.PNG",
+    "descricao": "Sistema de gerenciamento de tarefas. Teste prático para desenvolvedor FullStack Laravel, aplicado pela eSocial Brasil.",
+    "tecnologias": ["Laravel", "VueJS", "MySql", "JWT", "API", "Html5", "Css3", "Bootstrap"],
+    "btn_site": null,
+    "btn_git": "https://github.com/israelsilvaa/TaskFlow"
+  },
+  {
+    "nome": "Criterion Tecnologia",
+    "imagem": "assets/img/criterion.jpeg",
+    "descricao": "Mini loja de peças de computador, para consulta de modelos e garantia por número de série.",
+    "tecnologias": ["Laravel", "MySql", "Livewire", "Html5", "Css3", "Bootstrap"],
+    "btn_site": null,
+    "btn_git": "https://github.com/israelsilvaa/CriterionTecnologia"
+  },
+  {
+    "nome": "Ana Bela",
+    "imagem": "assets/img/anabela.PNG",
+    "descricao": "Projeto feito durante aprendizado de HTML e CSS pelo curso da Udemy",
+    "tecnologias": ["Html5", "Css3"],
+    "btn_site": "https://master--gleaming-travesseiro-15b6f1.netlify.app/",
+    "btn_git": "https://github.com/israelsilvaa/Projeto-AnaBela"
+  },
+  {
+    "nome": "Desafio COTIC 2022",
+    "imagem": "assets/img/desafio_coticPNG.PNG",
+    "descricao": "Desafio proposto para ingresso na COTIC",
+    "tecnologias": ["Laravel", "php", "MySql", "bootstrap", "Html5", "Css3"],
+    "btn_site": null,
+    "btn_git": "https://github.com/israelsilvaa/Desafio_COTIC_2022"
+  },
+  {
+    "nome": "HDC events",
+    "imagem": "assets/img/hdcevents.PNG",
+    "descricao": "Projeto desenvolvido durante o curso de Laravel feito no YouTube pelo canal Hora de Codar.",
+    "tecnologias": ["Laravel", "MySql", "Html5", "Css3"],
+    "btn_site": null,
+    "btn_git": "https://github.com/israelsilvaa/HDCevents"
+  },
+  {
+    "nome": "TecBlog",
+    "imagem": "assets/img/tecblog.PNG",
+    "descricao": "Projeto feito durante curso de aprendizado de HTML e CSS3 na Udemy",
+    "tecnologias": ["Html5", "Css3"],
+    "btn_site": "https://main--elaborate-muffin-8ea074.netlify.app/",
+    "btn_git": "https://github.com/israelsilvaa/Projeto_TecBlog"
+  },
+  {
+    "nome": "Em breve",
+    "imagem": "assets/img/em breve.jpg",
+    "descricao": "Projeto futuro em desenvolvimento",
+    "tecnologias": [],
+    "btn_site": null,
+    "btn_git": null,
+    "disabled": true
+  }
+]
