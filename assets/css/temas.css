@@ -9,17 +9,17 @@
     /* SELECIONE O TEMA AQUI: purple, red ou blue */
     --tema-ativo: red;
 
-    /* Tema Roxo (Atual) */
-    --tema-purple-primary: #9d00ff;
-    --tema-purple-secondary: #b84dff;
-    --tema-purple-accent: rgba(157, 0, 255, 0.3);
-    --tema-purple-light: rgba(157, 0, 255, 0.1);
-
-    /* Tema Vermelho */
+    /* Tema Vermelho(Atual) */
     --tema-red-primary: #e63946;
     --tema-red-secondary: #ff6b6b;
     --tema-red-accent: rgba(230, 57, 70, 0.3);
     --tema-red-light: rgba(230, 57, 70, 0.1);
+
+    /* Tema Roxo */
+    --tema-purple-primary: #9d00ff;
+    --tema-purple-secondary: #b84dff;
+    --tema-purple-accent: rgba(157, 0, 255, 0.3);
+    --tema-purple-light: rgba(157, 0, 255, 0.1);
 
     /* Tema Azul */
     --tema-blue-primary: #0066cc;
